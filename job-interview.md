@@ -83,7 +83,9 @@ erDiagram
 
 ```mermaid
 flowchart TD
-  id1(cloud)
+  subgraph cloud
+  id1(DATABASE: PostgreSQL)<-->id1(BACKEND: Python)<-->(WEBSERVER: Javascript)
+
 ```
 
 ## 5. Teknologi, Library, dan Framework
