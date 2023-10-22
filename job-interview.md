@@ -61,13 +61,13 @@ to improve the influencer exposure
 ## 2. User Story
 
 as a | i want to | and so | priorities level
----|---|---|---
+---
 seller | manage my cashflow | -knowing how much money we made and how much we spent for capital | ⭐⭐⭐⭐⭐
----|---|---|---
 seller | manage my stocks and market price of the product | -knowing when and what to restock with the normal market price | ⭐⭐⭐⭐
----|---|---|---
-buyer  | manage my spending | -knowing how much i've spend in a specific period of time based on my own notes | ⭐⭐⭐⭐⭐
-
+buyer | manage my spending | -knowing how much i've spend in a specific period of time based on my own notes | ⭐⭐⭐⭐⭐
+buyer | making my own spending categories | -knowing which parts of spending cost me the biggest | ⭐⭐⭐⭐
+seller | opening and digitalize my own store | -selling sellers product and empowering the economical cycle and making profits |  ⭐⭐⭐
+buyer | buying stuff | -can support the local business, buying the needs and goods, spending money | ⭐⭐⭐
 
 ## 3. Struktur Data
 
