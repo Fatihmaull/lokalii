@@ -88,12 +88,11 @@ flowchart TD
   a(Database: PostgreSQL)-->b(Backend: Python.Django)-->c(Webserver: Javascript.ExpressJS)
   end
 
-  subgraph 2
-  id1(client)
-  a(Android and IOS app: Dart.Flutter)
+  subgraph client
+  id1(Android and IOS app: Dart.Flutter)
   end
 
-  cloud-->2
+  cloud-->client
 
 ```
 
