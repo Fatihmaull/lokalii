@@ -85,11 +85,12 @@ erDiagram
 flowchart TD
   subgraph cloud
 
-   Database: PostgreSQL-->Backend: Python.Django-->Webserver: Javascript.ExpressJS-->Dart.Flutter
+   Database: PostgreSQL-->Backend: Python.Django-->Webserver: Javascript.ExpressJS
    end
   subgraph client
    Android and IOS app: Dart.Flutter
    end
+  cloud--client
 
 ```
 
