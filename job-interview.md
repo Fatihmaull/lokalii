@@ -90,7 +90,7 @@ flowchart TD
   subgraph client
    Android and IOS app: Dart.Flutter
    end
-  cloud--client
+  cloud-->client
 
 ```
 
