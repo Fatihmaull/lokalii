@@ -84,7 +84,7 @@ erDiagram
 ```mermaid
 flowchart TD
   subgraph cloud
-  id1(DATABASE: PostgreSQL)<-->id1(BACKEND: Python)<-->(WEBSERVER: Javascript)
+   id1(DATABASE: PostgreSQL)<-->id1(BACKEND: Python)<-->(WEBSERVER: Javascript)
 
 ```
 
