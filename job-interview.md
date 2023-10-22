@@ -82,7 +82,7 @@ erDiagram
 ## 4. Arsitektur Sistem
 
 flowchart TD
-id1[cloud]
+      id1(cloud)
 
 ## 5. Teknologi, Library, dan Framework
 
