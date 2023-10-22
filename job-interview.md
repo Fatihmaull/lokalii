@@ -70,6 +70,7 @@ seller | opening and digitalize my own store | -selling sellers product and empo
 buyer | buying stuff | -can support the local business, buying the needs and goods, spending money | ⭐⭐⭐
 buyer and seller | budgetting the spending of the month | to limit ourself from being over comsuming etc |⭐⭐⭐⭐
 
+
 ## 3. Struktur Data
 
 Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
