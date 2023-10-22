@@ -4,8 +4,8 @@
 lack of education and many misconceptions that technology (e-commerce) will kill UMKMs.
 Therefore, I created this application called "LOKALII" as a platform so that all layers of traders in Indonesia can contribute to the country's economic turnover, namely by selling on one platform of domestic origin, by the children of the country and for the children of this country.
 - To achieve the effectiveness of the industrial revolution 4.0 and the golden Indonesia 2045, economic activists (referred to here as traders) must be open, accustomed to, and understand information technology instead of closing themselves off from the system.
-- And for the buyer's side, it will be facilitated because the "LOCALII" application is a social media-based app, which will include recommendations for goods, contents, and services as another function of social media, namely a platform for daily cyberspace interaction between communities.
-- Because the main purpose of the "LOCALII" application is economic development, we are very concerned about
+- And for the buyer's side, it will be facilitated because the "LOKALII" application is a social media-based app, which will include recommendations for goods, contents, and services as another function of social media, namely a platform for daily cyberspace interaction between communities.
+- Because the main purpose of the "LOKALII" application is economic development, we are very concerned about
 how the financial flow of each individual, both sellers and buyers, can run smoothly. Therefore,
 we also have one of the main features, namely cashflow management, which is a superior feature compared to other e-commerce. Why? because here both sellers and buyers can pay attention to how much they spend in a certain period of time, along with savings and their savings targets including other financial calculations.
 - In the future, "LOKALII" will also facilitate transactions by introducing fintech systems, such as digital wallets that can store LOKALII tokens, money, and also support the paylater systems for ventures (seller features) and for paying goods (buyer features).
@@ -81,7 +81,8 @@ erDiagram
 
 ## 4. Arsitektur Sistem
 
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+flowchart TD
+id1[cloud]
 
 ## 5. Teknologi, Library, dan Framework
 
