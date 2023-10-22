@@ -68,6 +68,7 @@ buyer | manage my spending | -knowing how much i've spend in a specific period o
 buyer | making my own spending categories | -knowing which parts of spending cost me the biggest | ⭐⭐⭐⭐
 seller | opening and digitalize my own store | -selling sellers product and empowering the economical cycle and making profits |  ⭐⭐⭐
 buyer | buying stuff | -can support the local business, buying the needs and goods, spending money | ⭐⭐⭐
+buyer and seller | budgetting the spending of the month | to limit ourself from being over comsuming etc |⭐⭐⭐⭐
 
 ## 3. Struktur Data
 
