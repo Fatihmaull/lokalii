@@ -85,7 +85,7 @@ erDiagram
 flowchart TD
   subgraph cloud
 
-   Database: PostgreSQL<-->Backend: Python.Django<-->Webserver: Javascript.ExpressJS
+   Database: PostgreSQL-->Backend: Python.Django-->Database: PostgreSQL-->Webserver: Javascript.ExpressJS-->Backend: Python.Django-->Webserver: Javascript.ExpressJS
    end
 
 ```
