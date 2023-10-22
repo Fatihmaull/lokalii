@@ -84,7 +84,8 @@ erDiagram
 ```mermaid
 flowchart TD
   subgraph cloud
-   Database-->Backend-->Webserver
+
+   Database: PostgreSQL<-->Backend: Python.Django<-->Webserver: Javascript.ExpressJS
    end
 
 ```
