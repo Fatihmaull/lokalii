@@ -80,6 +80,27 @@ erDiagram
     RUJAK ||--o{ SAYUR : tersusun
     PEMBELI ||--|{ RUJAK : beli
 ```
+```mermaid
+graph TD
+  subgraph Aplikasi_Jual_Beli
+    A[Keranjang Belanja]
+    B[Proses Pembayaran]
+    C[Katalog Produk]
+    D[Pesanan]
+  end
+
+  subgraph Manajer_Keuangan
+    E[Catatan Keuangan]
+    F[Pelaporan Keuangan]
+  end
+
+  A --> B
+  B --> E
+  C --> A
+  C --> D
+  D --> B
+  E --> F
+```
 
 ## 4. Arsitektur Sistem
 
