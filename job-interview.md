@@ -44,18 +44,18 @@ to improve the influencer exposure
 - Tagline     : when there's a will, there's a way!!
 - Campaign    : as an application that provide ease of resources management and trades for every seller     
                 inside the country and buyer by doing the social-media based e-commerce system.
-- Targer user : business owner (preferrably small and rising business, corporates allowed)
-              : active vendors, traders and producer
-              : age 14-65+
-              : influencer and marketing enthusiast
-              : content creator
-              : every layer of indonesian society
-- UI UX Theme : easy
-              : simple
-              : interactive
-              : light coloured
-              : slight red, cream, grey, and black colouring
-              : design inspiration taken from tokopedia and pinterest
+- Targer user : 1. business owner (preferrably small and rising business, corporates allowed)
+                2. active vendors, traders and producer
+                3. age 14-65+
+                4. influencer and marketing enthusiast
+                5. content creator
+                6. every layer of indonesian society
+- UI UX Theme : 1. easy
+                2. simple
+                3. interactive
+                4. light coloured
+                5. slight red, cream, grey, and black colouring
+                6. design inspiration taken from tokopedia and pinterest
 
 
 ## 2. User Story
@@ -68,7 +68,7 @@ buyer | manage my spending | -knowing how much i've spend in a specific period o
 buyer | making my own spending categories | -knowing which parts of spending cost me the biggest | ⭐⭐⭐⭐
 seller | opening and digitalize my own store | -selling sellers product and empowering the economical cycle and making profits |  ⭐⭐⭐
 buyer | buying stuff | -can support the local business, buying the needs and goods, spending money | ⭐⭐⭐
-buyer and seller | budgetting the spending of the month | to limit ourself from being over comsuming etc |⭐⭐⭐⭐
+buyer and seller | budgetting the spending of the month | -to limit ourself from being over comsuming etc |⭐⭐⭐⭐
 
 
 ## 3. Struktur Data
@@ -87,7 +87,7 @@ erDiagram
 flowchart TD
   subgraph cloud
 
-  a(Database: PostgreSQL)-->b(Backend: Python.Django)-->c(Webserver: Javascript.ExpressJS)
+  a(Database: MySQL)-->b(Backend: Python.Django)-->c(Webserver: Javascript.ExpressJS)
   end
 
   subgraph client
