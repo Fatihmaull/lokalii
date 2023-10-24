@@ -124,7 +124,8 @@ so i've used and will use a few or more Technologies to develop and build LOKALI
 - Google, we definetely heard about google and use it a lot to be our sources and tutorials
 - YouTube for tutorials and walktrough
 - high-level programming language including Dart for Frontend and UI design, Java and Javascript for the web-server, and python for the backend services.
-- some of modern day CODE EDITOR such as VIsual studio code, Visual Studio, Android Studio, Notepad, and online java compiler.
+- some of modern day CODE EDITOR such as Visual studio code, Visual Studio, Android Studio, Notepad, and online java compiler.
+- with additional design tool called FIGMA (i design everything here) and PENPOT along with CANVA to look up for materials, icons, and plugins for ui design
 and i've implemented some of the libraries to make my work more efficient, including;
 - PUB flutter
 - Animation flutter
@@ -150,8 +151,8 @@ with some of programming language mentioned, including Dart, Java, JS, and Pyhto
 
 ## 6. Desain User Experience dan User Interface
 
-Bisa load image 
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+Splash Screen and user login page for LOKALII
+![1](https://id.pinterest.com/pin/1079175129443454563/)
 
 ## 7. Demonstrasi Video
 
