@@ -73,12 +73,30 @@ buyer and seller | budgetting the spending of the month | -to limit ourself from
 
 ## 3. Struktur Data
 
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
-
 ```mermaid
-erDiagram
-    TOTAL BALANCE ||--o{ ACCOUNT : approved
-    USER ||--|{ INCOME : input
+graph TD
+  subgraph LOKALII MAIN BRANCH
+    A[Shopping cart]
+    B[Payment Process]
+    C[Product catalog]
+    D[Request and Orders]
+  end
+
+  subgraph Manajer_Keuangan
+    E[Income and outcome Accounting]
+    F[Expenses tracker]
+    G[Budgetting and notes systems]
+  end
+    H[NOTES AND OTHER INPUTS FROM USER]
+
+  A --> B
+  B --> E
+  C --> A
+  C --> D
+  D --> B
+  E --> F --> G
+  H --> E
+  
 ```
 
 ## 4. Arsitektur Sistem
@@ -100,7 +118,35 @@ flowchart TD
 
 ## 5. Teknologi, Library, dan Framework
 
-bla bla bla
+so i've used and will use a few or more Technologies to develop and build LOKALII to it's maximum capacity and prospect and being a fully sustainable apps. In this early phase of development, i've used some kind of technology, including;
+- Computational Machine, a borrowed old l2015 laptop with Intel core-i7 inside, along with 8GB of ram and 256GB of SolidStateDrive which can help me boot faster, and extra memory of 1TB by an old HDD
+- Smartphone with 2019 main processing unit, sometimes for the emulator.
+- Google, we definetely heard about google and use it a lot to be our sources and tutorials
+- YouTube for tutorials and walktrough
+- high-level programming language including Dart for Frontend and UI design, Java and Javascript for the web-server, and python for the backend services.
+- some of modern day CODE EDITOR such as VIsual studio code, Visual Studio, Android Studio, Notepad, and online java compiler.
+and i've implemented some of the libraries to make my work more efficient, including;
+- PUB flutter
+- Animation flutter
+- RxDart for flutter
+- React for JSL
+- FastAPI for python
+- Numpy for Python
+- Angular for Javascript
+- Express.js for Javascript
+- JQuery for Javascript
+- ReactJs for UI javascript
+- Docker library for MySQL
+- and many more to the future
+with some of programming language mentioned, including Dart, Java, JS, and Pyhton, we expected to use some of frameworks available to support our work including;
+- Flutter for Dart
+- ReactJS for Javascript
+- Django for Pyhton backend
+- Visual Studio and VSCODE for every language
+- Android Studio for SDK Manager and Android Emulator Provider
+- etc coming soon..
+
+  and there are some of technologies, libraries, and framework that i've used and will use along with this development stages, and many more to be explored in the further time..
 
 ## 6. Desain User Experience dan User Interface
 
