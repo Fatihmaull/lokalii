@@ -155,6 +155,17 @@ Splash Screen and user login page for LOKALII;
 
 ![1](https://i.pinimg.com/736x/30/05/f0/3005f0991179071cd094fc0a93644dee.jpg)
 
+LOKALII WALLET MANAGER INSPO;
+
+![2](https://i.pinimg.com/736x/ac/a9/3c/aca93ca207e1e27a9cabbcbf8c857a81.jpg)
+
+LOKALII Social Media based E-COMMERCE REFFERENCE;
+![3](https://i.pinimg.com/564x/a3/0b/31/a30b3108b7ca705c004b8c071b91870e.jpg)
+REFERENCE
+!(https://i.pinimg.com/564x/d3/fe/ec/d3feecd76b14dcba53cae3b3c49303e0.jpg)
+REFERENCE
+!(https://i.pinimg.com/474x/9e/01/10/9e0110336f3bdf877bf3d8cf0017f6c5.jpg)
+
 ## 7. Demonstrasi Video
 
 Link youtube nya
