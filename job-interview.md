@@ -82,7 +82,7 @@ graph TD
     D[Request and Orders]
   end
 
-  subgraph Manajer_Keuangan
+  subgraph LOKALII WALLET MANAGER
     E[Income and outcome Accounting]
     F[Expenses tracker]
     G[Budgetting and notes systems]
@@ -151,8 +151,9 @@ with some of programming language mentioned, including Dart, Java, JS, and Pyhto
 
 ## 6. Desain User Experience dan User Interface
 
-Splash Screen and user login page for LOKALII
-![1](https://id.pinterest.com/pin/1079175129443454563/)
+Splash Screen and user login page for LOKALII;
+
+![1](https://i.pinimg.com/736x/30/05/f0/3005f0991179071cd094fc0a93644dee.jpg)
 
 ## 7. Demonstrasi Video
 
