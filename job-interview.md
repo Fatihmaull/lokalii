@@ -161,6 +161,7 @@ LOKALII WALLET MANAGER INSPO;
 ![2](https://i.pinimg.com/736x/ac/a9/3c/aca93ca207e1e27a9cabbcbf8c857a81.jpg)
 
 LOKALII Social Media based E-COMMERCE REFFERENCE;
+
 ![3](https://i.pinimg.com/564x/a3/0b/31/a30b3108b7ca705c004b8c071b91870e.jpg)
 
 REFERENCE;
@@ -211,4 +212,26 @@ youtube;
 
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
-
+Sistem database menurut saya memiliki peran krusial dalam pengembangan aplikasi dan dapat memiliki dampak besar terhadap berbagai aspek pembangunan aplikasi. Berikut adalah beberapa cara di mana sistem database dapat mempengaruhi pengembangan aplikasi pada beberapa hal utama diantaranya;
+- Performa Aplikasi:
+ Query Optimization: Desain database yang baik dapat meningkatkan kinerja aplikasi dengan mengoptimalkan kueri database.
+ Indexing: Pengindeksan yang tepat dapat mempercepat pencarian dan pemrosesan data.
+- Skema Database:
+ Integrasi Data: Skema database yang baik dapat memfasilitasi integrasi data dengan memastikan data tersedia dalam format yang konsisten.
+ Ketahanan terhadap Perubahan: Perubahan dalam kebutuhan aplikasi dapat lebih mudah ditangani jika skema database dirancang dengan fleksibilitas.
+- Keamanan:
+ Proteksi Data: Sistem database harus mampu menyediakan kontrol akses yang tepat untuk melindungi data sensitif.
+ Enkripsi: Keamanan data dapat ditingkatkan melalui penggunaan enkripsi untuk data yang disimpan di database.
+- Skalabilitas:
+  Horizontal atau Vertikal: Pilihan antara skalabilitas horizontal (menambah server) atau skalabilitas vertikal (menambah daya komputasi pada server yang ada) dapat dipengaruhi oleh sistem database.
+- Ketersediaan dan Ketahanan (Availability and Reliability):
+- Replication: Sistem database yang mendukung replikasi dapat meningkatkan ketersediaan dan ketahanan aplikasi.
+- Backup dan Restore: Proses backup dan restore yang efisien penting untuk melindungi data dan memulihkan sistem dalam kasus kegagalan.
+- Kemudahan Pengembangan (Developer-Friendly):
+- ORM (Object-Relational Mapping): Sistem database yang mendukung ORM dapat memudahkan pengembangan dengan menyederhanakan interaksi antara kode aplikasi dan database.
+- Bahasa Kueri yang Ramah Pengembang: Bahasa kueri yang mudah dimengerti dan dikelola oleh pengembang.
+- Konsistensi Data:
+  Transaksi ACID: Sistem database yang mendukung properti ACID (Atomicity, Consistency, Isolation, Durability) dapat memastikan konsistensi data dalam lingkungan transaksional.
+- Kompabilitas dengan Teknologi Lain:
+- Integrasi dengan Teknologi Terkini: Sistem database yang kompatibel dengan teknologi terkini memungkinkan pengembang menggunakan fitur-fitur terbaru.
+Semua faktor diatas adalah faktor faktor yang berpengaruh dari sistem database terhadap development aplikasi, maintenance, scalability dan sustainability produk informatika tersebut kedepannya.
