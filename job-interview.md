@@ -15,27 +15,28 @@ we also have one of the main features, namely cashflow management, which is a su
 
 It is a social media-based e-commerce platform that has the following main features:
 1. Cashflow management and financial planning
-where the seller can record the stock of goods in the store along with the income and expenses of the store with their respective classifications
+where the seller can record the stock of goods in the store along with the income and expenses of the store with their respective classifications,
 where buyers can track what products or services they are looking for, as well as their money expenditures and income, at any time they specify
 2. content recommendation
-content creators can do product marketing
-Affiliates can create content to increase the visibility of the products sold
-every store can create content
-every user can buy products directly from passing posts 
-the content algorithm will be adjusted to the interests of buyers and is search-based
+content creators can do product marketing,
+Affiliates can create content to increase the visibility of the products sold,
+every store can create content,
+every user can buy products directly from passing posts, 
+the content algorithm will be adjusted to the interests of buyers and is search-based,
 Algorithms will recommend products with the best reviews, lowest prices, and closest location to the buyer according to their preferences.
 3. social media-based (such as Instagram and TikTok shops)
-each user can upload photos, videos, and short videos
-each user can communicate with each other via chat
-every user can upload stories
-every user can recommend products
+each user can upload photos, videos, and short videos,
+each user can communicate with each other via inside-LOKALII chatapp,
+every user can upload stories,
+every user can recommend products,
 4. digital walllets
-every user can deposit money that can be used in "LOKALII" products
-every cash earned by the seller will go to the wallet 
-every seller can withdraw their money with every banks that cooperates with "LOKALII"
+every user can deposit money that can be used in every "LOKALII" products,
+every cash earned by the seller will go to the wallet, 
+every seller can withdraw their money with every banks that cooperates with "LOKALII".
 5. Subscription method
-to improve the product and shop exposure
-to improve the influencer exposure
+for selller to improve the product and shop exposure,
+for influencer to improve the influence and account reach exposure,
+for users to receive every premium content, premium product updates, pre-release access, and the other special features following.
 
 
 ## 1.3. Branding
