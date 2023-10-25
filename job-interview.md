@@ -235,3 +235,6 @@ Sistem database menurut saya memiliki peran krusial dalam pengembangan aplikasi 
 - Kompabilitas dengan Teknologi Lain:
 - Integrasi dengan Teknologi Terkini: Sistem database yang kompatibel dengan teknologi terkini memungkinkan pengembang menggunakan fitur-fitur terbaru.
 Semua faktor diatas adalah faktor faktor yang berpengaruh dari sistem database terhadap development aplikasi, maintenance, scalability dan sustainability produk informatika tersebut kedepannya.
+fully explained in upcoming video;
+
+youtube;
