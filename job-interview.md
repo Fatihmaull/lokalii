@@ -121,6 +121,7 @@ flowchart TD
 so i've used and will use a few or more Technologies to develop and build LOKALII to it's maximum capacity and prospect and being a fully sustainable apps. In this early phase of development, i've used some kind of technology, including;
 - Computational Machine, a borrowed old l2015 laptop with Intel core-i7 inside, along with 8GB of ram and 256GB of SolidStateDrive which can help me boot faster, and extra memory of 1TB by an old HDD
 - Smartphone with 2019 main processing unit, sometimes for the emulator.
+- Windows 10 as the main OS for the Computing Machine that i use.
 - Google, we definetely heard about google and use it a lot to be our sources and tutorials
 - YouTube for tutorials and walktrough
 - high-level programming language including Dart for Frontend and UI design, Java and Javascript for the web-server, and python for the backend services.
@@ -172,20 +173,42 @@ REFERENCE;
 
 ## 7. Demonstrasi Video
 
-Link youtube nya
+the Mobile app that i've been develope in this meantime;
+A social media based app named "LOKALII" which has only 1 feature in this development phase which is;
+Money manager; 
+track everything from your financial problems including: Income, Outcome, Transaction History, Budgetting,  Spending Graphic, Expenses Tracker, and other features from money manager app.
+
+and we're currently building and scaling this app to fulfill the best use and main purpose from this app in the future, to help local business expand by using information technology, and controls the main economic system of local trades under one app and one management, the insider and the people of Indonesia itself.
+fully explained in the upcoming video;
+
+Youtube; 
 
 ## 8. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+- Sistem dan mesin komputasi tentu sangat amat berpengaruh dalam segala proses pengembangan sebuah aplikasi, mulai dari komputernya itu sendiri, lalu ke bahasa pemrograman, code editor, framework, dan library yang kita gunakan yang mana semuanya berjalan berdasarkan sistem komputasi yang berjalan di alat komputasi (laptop/komputer/handphone) yang kita gunakan.
+- Sistem operasi juga banyak menyumbang kemudahan dalam segala proses pengembangan software maupun web bagi para developer karena dengan sistem operasi, kita dapat dengan mudah ber-navigasi di antara ribuan file, program, dan data-data yang ada di dalam, yang disimpan, mauun yang sedang diolah didalam mesin komputasi yang kita gunakan. Tanpa sistem operasi, kita akan kesusahan dalam mencari dan mengakses data, memodifikasi data dan merubahnya ke dalam program yang kita inginkan demi berjalannya aplikasi yang kita develop.
+fully explained in teh upcoming video;
+
+youtube;
 
 ## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+- mari kita mulai bahas dari bahasa pemrograman. Bahasa pemrograman tentu saja dapat sangat berpengaruh dalam pengembangan aplikasi, kenapa? karena bahasa pemrograman itulah sebagai sarana komunikasi kita kepada sang mesin komputasi yang nanti nya akan menjalankan program yang kita buat. Bahasa pemrograman jaman sekarang memudahkan para programmer dan developer dalam bekerja dikarenakan jenis bahasanya yang lebih mudah dipahami oleh manusia, sehingga mempercepat proses pen-kodingan yang dilakukan oleh para developer (karena jika masih menggunakan bahasa mesin murni, kita tentu akan kesusahan dalam memahami nya terlebih karena masih merupakan kode biner). disinilah bahasa pemrograman ikut andil dalam memudahkan kita berkomunikasi sehingga dapat menghasilkan algoritma yang jitu untuk dipahami komputer demi keberlangsungan aplikasi atau program yang kita kembangkan.
+- algoritma dan struktur data juga sangat berpengaruh di dalam proses running dan debugging data. Sebagaimana yang kita tahu bahwa program dibaca dan dicompile dari atas ke bawah, struktur data dan algoritma berfungsi dalam menentukan bagian kode mana yang akan dieksekusi terlebih dahulu, kemana kode tersebut bersambung, dan apa yang kode tersebut lakukan beserta akibat dari kode tersebut yang mana akan mengeksekusi kode-kode selanjutnya sesuai algoritma, sehingga terjadi lah rentetan logika yang menjadi basic atau dasar suatu aplikasi dapat bekerja.
+fully explained in the upcoming video;
+
+youtube;
 
 ## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+- Software development life cycle sangat berpengaruh didalam developing product kali ini, karena sangat memudahkan saya yang tidak tahu apa-apa dan bagaimana proses permulaan dalam perancangan aplikasi.
+- Meskipun masih sangat abstrak dan kurang menyeluruh, namun setidaknya proses SDLC ini dapat memberi gambaran akan harus apa kita? di bagian mana kita harus melakukannya? dan bagaimana setelahnya.
+- Mulai dari SDLC ini, saya dapat menentukan banyak teknologi, library, dan framework yang akan digunakan dalam proses developing aplikasi mobile kali ini.
+fully explained in the upcoming video;
+
+youtube;
+
 
 ## 11. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
 
-Link youtube nya didetik ini
+
