@@ -87,6 +87,7 @@ graph TD
     E[Income and outcome Accounting]
     F[Expenses tracker]
     G[Budgetting and notes systems]
+
   end
     H[NOTES AND OTHER INPUTS FROM USER]
 
