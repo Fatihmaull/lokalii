@@ -78,29 +78,23 @@ user | upload my content | -gaining exposure, followers, and influences on produ
 ## 3. Struktur Data
 
 ```mermaid
-graph TD
-  subgraph LOKALII MAIN BRANCH
-    A[Shopping cart]
-    B[Payment Process]
-    C[Product catalog]
-    D[Request and Orders]
-  end
+erDiagram
+  User ||--o{ Content : Can Upload
+  User ||--o{ AffiliateLink : Can Create
+  User ||--o{ Chat : Can Communicate
+  User ||--o{ CRUD : Can Perform CRUD
 
-  subgraph LOKALII WALLET MANAGER
-    E[Income and outcome Accounting]
-    F[Expenses tracker]
-    G[Budgetting and notes systems]
+  User --|{ Buyer : Role
+  Buyer ||--o{ Purchase : Can Buy
+  Buyer ||--o{ Wishlist : Can Add to Wishlist
+  Buyer ||--o{ Search : Can Search
+  Buyer ||--o{ Preferences : Can Set Preferences
 
-  end
-    H[NOTES AND OTHER INPUTS FROM USER]
-
-  A --> B
-  B --> E
-  C --> A
-  C --> D
-  D --> B
-  E --> F --> G
-  H --> E
+  User --|{ Seller : Role
+  Seller ||--o{ OnlineStore : Can Open
+  Seller ||--o{ Sell : Can Sell
+  Seller ||--o{ SellFromFeed : Can Sell from Feed
+  Seller ||--o{ ReceivePayment : Can Receive Payment
   
 ```
 
