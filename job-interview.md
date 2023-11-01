@@ -70,6 +70,9 @@ buyer | making my own spending categories | -knowing which parts of spending cos
 seller | opening and digitalize my own store | -selling sellers product and empowering the economical cycle and making profits |  ⭐⭐⭐
 buyer | buying stuff | -can support the local business, buying the needs and goods, spending money | ⭐⭐⭐
 buyer and seller | budgetting the spending of the month | -to limit ourself from being over comsuming etc |⭐⭐⭐⭐
+buyer | deposit and store the money from any each form of currency to LOKALII wallet | -ease the access of trade, by making it fully online without even leaving buyer's houses |⭐⭐⭐⭐⭐
+seller | withdraw currencies from LOKALII wallet account to our bank account ballance | -increasing the efficiency of economical cycle by using real-life based currencies to support transactions | ⭐⭐⭐⭐⭐
+user | upload my content | -gaining exposure, followers, and influences on product. -making an online social space between each other users. -to gaining sells and audience from their social media platform | ⭐⭐⭐⭐⭐ 
 
 
 ## 3. Struktur Data
