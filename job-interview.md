@@ -95,7 +95,10 @@ erDiagram
   Seller ||--o{ Sell : Can Sell
   Seller ||--o{ SellFromFeed : Can Sell from Feed
   Seller ||--o{ ReceivePayment : Can Receive Payment
-  
+
+  Content ||--o{ Feed : Belongs to Feed
+  Purchase ||--o{ Payment : Generates Payment
+
 ```
 
 ## 4. Arsitektur Sistem
