@@ -78,136 +78,139 @@ user | upload my content | -gaining exposure, followers, and influences on produ
 ## 3. Struktur Data
 
 ```mermaid
-classDiagram
-  class User {
-    +UserID: int
-    Name: string
-    Email: string
-    Password: string
-    ProfileImage: string
+
+ erDiagram
+  User {
+    id INT
+    username VARCHAR
+    email VARCHAR
+    password VARCHAR
+    created_at DATETIME
+    updated_at DATETIME
   }
 
-  class Content {
-    +ContentID: int
-    Title: string
-    Description: string
-    ImageURL: string
-    UploadDate: date
+  Content {
+    id INT
+    user_id INT
+    title VARCHAR
+    description TEXT
+    created_at DATETIME
+    updated_at DATETIME
   }
 
-  class AffiliateLink {
-    +LinkID: int
-    URL: string
-    CreationDate: date
+  AffiliateLink {
+    id INT
+    user_id INT
+    link_url VARCHAR
+    created_at DATETIME
+    updated_at DATETIME
   }
 
-  class Chat {
-    +ChatID: int
-    SenderID: int
-    ReceiverID: int
-    Message: string
-    Timestamp: datetime
+  Chat {
+    id INT
+    sender_id INT
+    receiver_id INT
+    message TEXT
+    sent_at DATETIME
   }
 
-  class CRUD {
-    +CRUDID: int
-    UserID: int
-    ActionType: string
-    TargetID: int
-    Timestamp: datetime
+  CRUD {
+    id INT
+    user_id INT
+    action_type VARCHAR
+    target_id INT
+    created_at DATETIME
   }
 
-  class MarketplaceUser {
-    +UserID: int
-    Role: string
-    // Other buyer-specific attributes
+  Buyer {
+    user_id INT
+    total_spent DECIMAL
   }
 
-  class Purchase {
-    +PurchaseID: int
-    BuyerID: int
-    ProductID: int
-    Quantity: int
-    TotalPrice: double
-    PurchaseDate: date
+  Purchase {
+    id INT
+    buyer_user_id INT
+    seller_user_id INT
+    content_id INT
+    quantity INT
+    total_price DECIMAL
+    purchase_date DATETIME
   }
 
-  class Wishlist {
-    +WishlistID: int
-    BuyerID: int
-    ProductID: int
-    AddedDate: date
+  Wishlist {
+    id INT
+    buyer_user_id INT
+    content_id INT
+    added_at DATETIME
   }
 
-  class Search {
-    +SearchID: int
-    BuyerID: int
-    Keywords: string
-    SearchDate: date
+  Search {
+    id INT
+    buyer_user_id INT
+    keyword VARCHAR
+    search_date DATETIME
   }
 
-  class Preferences {
-    +PreferencesID: int
-    BuyerID: int
-    Category: string
-    MinPrice: double
-    MaxPrice: double
+  Preferences {
+    id INT
+    buyer_user_id INT
+    category VARCHAR
+    preferences_date DATETIME
   }
 
-  class Seller {
-    +UserID: int
-    ShopName: string
-    // Other seller-specific attributes
+  Seller {
+    user_id INT
+    total_earnings DECIMAL
   }
 
-  class OnlineStore {
-    +StoreID: int
-    SellerID: int
-    StoreName: string
-    OpeningDate: date
+  OnlineStore {
+    id INT
+    seller_user_id INT
+    store_name VARCHAR
+    open_date DATETIME
   }
 
-  class Sell {
-    +SellID: int
-    SellerID: int
-    ProductID: int
-    Price: double
-    Availability: bool
+  Sell {
+    id INT
+    seller_user_id INT
+    content_id INT
+    price DECIMAL
+    stock_quantity INT
+    listing_date DATETIME
   }
 
-  class Feed {
-    +FeedID: int
-    SellerID: int
-    ContentID: int
-    PostDate: date
+  SellFromFeed {
+    id INT
+    seller_user_id INT
+    content_id INT
+    price DECIMAL
+    stock_quantity INT
+    listed_from_feed_id INT
+    listing_date DATETIME
   }
 
-  class ReceivePayment {
-    +PaymentID: int
-    SellerID: int
-    BuyerID: int
-    Amount: double
-    PaymentDate: date
+  ReceivePayment {
+    id INT
+    seller_user_id INT
+    buyer_user_id INT
+    purchase_id INT
+    amount_received DECIMAL
+    received_date DATETIME
   }
 
-  User --|> Content
-  User --|> AffiliateLink
-  User --|> Chat
-  User --|> CRUD
-  User --|> MarketplaceUser
+  Feed {
+    id INT
+    content_id INT
+    online_store_id INT
+    feed_date DATETIME
+  }
 
-  MarketplaceUser --|> Buyer
-  MarketplaceUser --|> Seller
-
-  Buyer --|> Purchase
-  Buyer --|> Wishlist
-  Buyer --|> Search
-  Buyer --|> Preferences
-
-  Seller --|> OnlineStore
-  Seller --|> Sell
-  Seller --|> Feed
-  Seller --|> ReceivePayment
+  Payment {
+    id INT
+    purchase_id INT
+    payment_date DATETIME
+    amount_paid DECIMAL
+  }
 
 
 ```
