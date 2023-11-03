@@ -84,14 +84,14 @@ classDiagram
     Name: string
     Email: string
     Password: string
-    ProfileImage: string
+    ProfileImage: string, image
   }
 
   class Content {
     +ContentID: int
     Title: string
     Description: string
-    ImageURL: string
+    ImageURL: string, image
     UploadDate: date
   }
 
@@ -105,7 +105,7 @@ classDiagram
     +ChatID: int
     SenderID: int
     ReceiverID: int
-    Message: string
+    Message: string, image
     Timestamp: datetime
   }
 
