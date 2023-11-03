@@ -78,26 +78,137 @@ user | upload my content | -gaining exposure, followers, and influences on produ
 ## 3. Struktur Data
 
 ```mermaid
-erDiagram
-  User ||--o{ Content : Can Upload
-  User ||--o{ AffiliateLink : Can Create
-  User ||--o{ Chat : Can Communicate
-  User ||--o{ CRUD : Can Perform CRUD
+classDiagram
+  class User {
+    +UserID: int
+    Name: string
+    Email: string
+    Password: string
+    ProfileImage: string
+  }
 
-  User --|{ Buyer : Role
-  Buyer ||--o{ Purchase : Can Buy
-  Buyer ||--o{ Wishlist : Can Add to Wishlist
-  Buyer ||--o{ Search : Can Search
-  Buyer ||--o{ Preferences : Can Set Preferences
+  class Content {
+    +ContentID: int
+    Title: string
+    Description: string
+    ImageURL: string
+    UploadDate: date
+  }
 
-  User --|{ Seller : Role
-  Seller ||--o{ OnlineStore : Can Open
-  Seller ||--o{ Sell : Can Sell
-  Seller ||--o{ SellFromFeed : Can Sell from Feed
-  Seller ||--o{ ReceivePayment : Can Receive Payment
+  class AffiliateLink {
+    +LinkID: int
+    URL: string
+    CreationDate: date
+  }
 
-  Content ||--o{ Feed : Belongs to Feed
-  Purchase ||--o{ Payment : Generates Payment
+  class Chat {
+    +ChatID: int
+    SenderID: int
+    ReceiverID: int
+    Message: string
+    Timestamp: datetime
+  }
+
+  class CRUD {
+    +CRUDID: int
+    UserID: int
+    ActionType: string
+    TargetID: int
+    Timestamp: datetime
+  }
+
+  class MarketplaceUser {
+    +UserID: int
+    Role: string
+    // Other buyer-specific attributes
+  }
+
+  class Purchase {
+    +PurchaseID: int
+    BuyerID: int
+    ProductID: int
+    Quantity: int
+    TotalPrice: double
+    PurchaseDate: date
+  }
+
+  class Wishlist {
+    +WishlistID: int
+    BuyerID: int
+    ProductID: int
+    AddedDate: date
+  }
+
+  class Search {
+    +SearchID: int
+    BuyerID: int
+    Keywords: string
+    SearchDate: date
+  }
+
+  class Preferences {
+    +PreferencesID: int
+    BuyerID: int
+    Category: string
+    MinPrice: double
+    MaxPrice: double
+  }
+
+  class Seller {
+    +UserID: int
+    ShopName: string
+    // Other seller-specific attributes
+  }
+
+  class OnlineStore {
+    +StoreID: int
+    SellerID: int
+    StoreName: string
+    OpeningDate: date
+  }
+
+  class Sell {
+    +SellID: int
+    SellerID: int
+    ProductID: int
+    Price: double
+    Availability: bool
+  }
+
+  class Feed {
+    +FeedID: int
+    SellerID: int
+    ContentID: int
+    PostDate: date
+  }
+
+  class ReceivePayment {
+    +PaymentID: int
+    SellerID: int
+    BuyerID: int
+    Amount: double
+    PaymentDate: date
+  }
+
+  User --|> Content
+  User --|> AffiliateLink
+  User --|> Chat
+  User --|> CRUD
+  User --|> MarketplaceUser
+
+  MarketplaceUser --|> Buyer
+  MarketplaceUser --|> Seller
+
+  Buyer --|> Purchase
+  Buyer --|> Wishlist
+  Buyer --|> Search
+  Buyer --|> Preferences
+
+  Seller --|> OnlineStore
+  Seller --|> Sell
+  Seller --|> Feed
+  Seller --|> ReceivePayment
+
 
 ```
 
